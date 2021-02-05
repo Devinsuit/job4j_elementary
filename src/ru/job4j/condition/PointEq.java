@@ -10,5 +10,6 @@ public class PointEq {
     public static void main(String[] args) {
         System.out.println(eq(1, 1, 2, 2));
         System.out.println(eq(10, 10, 10, 10));
+        System.out.println(eq(9, 10, 7, 10));
     }
 }
