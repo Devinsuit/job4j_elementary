@@ -20,4 +20,11 @@ public class FactorialTest {
         int expected = 1;
         Assert.assertEquals(rsl, expected);
     }
+
+    @Test
+    public void whenCalculateFactorialForOneThenOne() {
+        int rsl = Factorial.calc(1);
+        int expected = 1;
+        Assert.assertEquals(rsl, expected);
+    }
 }
