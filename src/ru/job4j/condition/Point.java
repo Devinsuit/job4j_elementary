@@ -8,10 +8,8 @@ public class Point {
     public static void main(String[] args) {
         double rsl = Point.distance(0, 0, 2, 0);
         System.out.println("result (0, 0) to (2, 0) " + rsl);
-
         double rsl2 = Point.distance(0, 3, 0, 3);
         System.out.println("result (0, 0) to (3, 3) " + rsl2);
-
         double rsl3 = Point.distance(1, 2, 4, 1);
         System.out.println("result (1, 4) to (2, 1) " + rsl3);
     }
